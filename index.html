@@ -358,7 +358,7 @@ h3 {
         <div class="box2">
             <p class="useroutput" style="text-align: center; margin-top: 30px;">searching for amjad ...</p>
              <div class="folding">
-             <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTFoMHhnaDFkbzB1ZHFlaGttYXYzY2pzNGU1bnBncGkwNmwzNzF6ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/1QcqLUCuQca1edQ0rK/giphy.gif"width:42px;height:42px;">
+            	<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTFoMHhnaDFkbzB1ZHFlaGttYXYzY2pzNGU1bnBncGkwNmwzNzF6ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/1QcqLUCuQca1edQ0rK/giphy.gif"width:42px;height:42px;">
 
         </div>
         </div>
@@ -402,13 +402,15 @@ h3 {
                 </div>
 
             </div>
-</div>
+
+        </div>
         <div class="box4">
             <h3>Last step</h3>
             <p>Please verify that you are Not a Robot to receive your Robux!</p>
-<a href="https://bit.ly/thecontentlocker">
-  <button>Verify please</button>
-</a>
+          
+<button
+style=font-size: 19px ;
+>Verify</button>
         </center>
         </div>
     </div>
@@ -439,7 +441,7 @@ rbxbtn.addEventListener("click", () => {
     setTimeout(showbox3, 2500);
   }
 
-  useroutput.innerHTML = Searching for <b>${username.value}</b> ...;
+  useroutput.innerHTML = `Searching for <b>${username.value}</b> ...`;
 });
 
 rbxtotal.forEach((btn) => {
@@ -450,7 +452,7 @@ rbxtotal.forEach((btn) => {
 
     setTimeout(showboxagain, 2500);
     setTimeout(showbox4, 2500);
-    useroutput.innerHTML = Sending Robux to <b>${username.value}</b>...;
+    useroutput.innerHTML = `Sending Robux to <b>${username.value}</b>...`;
   });
 });
 
